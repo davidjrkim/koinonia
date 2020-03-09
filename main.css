@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contain {
+    width: 100%;
+    text-align: center;
+    background-color: #194970;
+}
+
+.seaweed-img {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 620px) {
+    .seaweed-img {
+        width: 100%;
+        height: auto;
+    }
+}
