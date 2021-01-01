@@ -58,10 +58,11 @@ body {
 }
 
 .load-text {
+    font-size: 1.5vw;
     position: absolute;
     top: 40vh;
     color: #fff;
-    font-family: NEXON Lv2 Gothic, font-family: Arial, sans-serif;
+    font-family: NEXON Lv2 Gothic, Arial, sans-serif;
 }
 
 @keyframes loader {
