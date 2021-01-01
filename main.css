@@ -13,6 +13,8 @@
 body {
     background-color: rgb(29, 77, 99);
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .contain {
@@ -40,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 10;
 }
 .loader {
     display: inline-block;
