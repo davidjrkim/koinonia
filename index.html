@@ -3,10 +3,39 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>판매원 코이노니아</title>
+        <title>판매원 코이노니아 후코이단</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="turn.js"></script>
         <link rel="stylesheet" href="main.css" />
+        <link rel="icon" href="Koinonia.png" type="image/x-icon" />
     </head>
     <body>
-        <a href="seaweed.html">goto</a>
+        <div class="contain">
+            <div id="album">
+                <div style="background-image: url(page/1.jpeg)"></div>
+                <div style="background-image: url(page/2.jpeg)"></div>
+                <div style="background-image: url(page/3.jpeg)"></div>
+                <div style="background-image: url(page/4.jpeg)"></div>
+                <div style="background-image: url(page/5.jpeg)"></div>
+                <div style="background-image: url(page/6.jpeg)"></div>
+                <div style="background-image: url(page/7.jpeg)"></div>
+                <div style="background-image: url(page/8.jpeg)"></div>
+                <div style="background-image: url(page/9.jpeg)"></div>
+                <div style="background-image: url(page/10.jpeg)"></div>
+                <div style="background-image: url(page/11.jpeg)"></div>
+                <div style="background-image: url(page/12.jpeg)"></div>
+            </div>
+        </div>
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+
+        <script>
+            $(window).on("load", function () {
+                $(".loader-wrapper").fadeOut("slow");
+            });
+        </script>
+        <script src="script.js"></script>
     </body>
 </html>
